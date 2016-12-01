@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  background-image: url("../images/sloth-bg.svg");
+  background-color: #bea586;
+  background-size: 48px auto;
+}
+
+.wrapper {
+  background-color: #fff;
+}
+
+strong {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+figure {
+  border-top: solid 2px #000;
+  border-bottom: solid 2px #000;
+}
