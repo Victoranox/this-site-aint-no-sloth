@@ -1,10 +1,10 @@
 html {
-	box-sizing: border-box;
-  font-family: Georgia, serif;
+  box-sizing: border-box;
+  font-family: Verdana, serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -13,16 +13,56 @@ body {
   background-size: 48px auto;
 }
 
+.cush {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.overlay {
+  background-image: linear-gradient(to bottom, black 10%, rgba(28, 14, 0, 0) 20%);
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.unes {
+  padding-bottom: 1rem;
+}
+
+figcaption {
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-left: .5rem;
+}
+
 .wrapper {
   background-color: #fff;
+  max-width: 36rem;
 }
 
 strong {
   color: #fff;
   text-shadow: 2px 2px #000;
+  font-family: Georgia, serif;
 }
 
-figure {
+.unborder {
   border-top: solid 2px #000;
   border-bottom: solid 2px #000;
+}
+
+footer a {
+  color: #000;
+}
+
+.secn {
+  padding-top: 1.3rem;
+}
+
+.neg {
+  padding-bottom: .80rem;
 }
